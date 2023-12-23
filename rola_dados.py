@@ -11,7 +11,7 @@ def joga_dados(quantia, tamanho):
 
 
 def quantia():
-    """Função responsavel por pegar a quantidade de dados que seram utilizados na função joga_dados"""
+    """Função responsavel por pegar a quantidade de dados que serão utilizados na função joga_dados"""
     while True:
         quantidade = input('Digite a quantidade da dados que serão jogados\n')
         if quantidade <= '0':
@@ -27,7 +27,7 @@ def quantia():
 
 
 def valores():
-    """Função responsavel por pegar a quantidade de ladps do dado que seram utilizados na função joga_dados"""
+    """Função responsavel por pegar a quantidade de lados do dado que serão utilizados na função joga_dados"""
     while True:
         tamanho = input('\nDigite a quantidade de lados (EX:6)\n')
         if tamanho <= '1':
